@@ -1,0 +1,28 @@
+# File cấu hình service systemd cho Linux (Ubuntu, Debian, CentOS)
+# Copy file này vào: /etc/systemd/system/checklist.service
+# Kích hoạt:
+#   sudo systemctl daemon-reload
+#   sudo systemctl enable checklist
+#   sudo systemctl start checklist
+#   sudo systemctl status checklist
+
+[Unit]
+Description=Checklist Thanh Hai Node.js Application
+After=network.target
+
+[Service]
+Type=simple
+User=www-data
+WorkingDirectory=/var/www/checklist-thanh-hai
+ExecStart=/usr/bin/node src/server.js
+Restart=on-failure
+RestartSec=5s
+Environment=NODE_ENV=production
+Environment=PORT=3000
+Environment=DB_PATH=/var/www/checklist-thanh-hai/data/checklist.db
+
+# Giới hạn tài nguyên an toàn
+LimitNOFILE=65535
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,16 @@
+services:
+  checklist:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: checklist-app
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    volumes:
+      # Mount thư mục data ra máy chủ để dữ liệu SQLite không bị mất khi update container
+      - ./data:/app/data
+    environment:
+      - NODE_ENV=production
+      - PORT=3000
+      - DB_PATH=/app/data/checklist.db

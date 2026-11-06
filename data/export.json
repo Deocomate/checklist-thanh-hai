@@ -1,0 +1,164 @@
+{
+  "tasks": {
+    "1rb8y7hjblfcy7guj1wi": {
+      "brand": "th",
+      "date": "2026-10-31",
+      "due": "2026-11-01",
+      "group": "Marketing",
+      "head": "Check dữ liệu",
+      "kind": "once",
+      "link": "https://docs.google.com/spreadsheets/d/1ioaeYk06CwhQ4-tydR2Jr-lE9SkBcOZUNFWAYmNUVUM/edit?gid=1617748132#gid=1617748132",
+      "order": 9,
+      "owner": "Mai",
+      "priority": "Thường",
+      "src": "import",
+      "title": "Soạn source GSXD"
+    },
+    "5g9skhn0ah12lhwctt6e": {
+      "brand": "mosaic",
+      "date": "2026-10-30",
+      "due": "",
+      "group": "CSKH",
+      "head": "Check tin nhắn khách",
+      "kind": "once",
+      "link": "",
+      "order": 8,
+      "owner": "Mai",
+      "priority": "Thường",
+      "src": "import",
+      "title": "Chị Thu Thủy tranh mosaic"
+    },
+    "9hiuj1w6cko2gqn7swtr": {
+      "brand": "th",
+      "date": "2026-11-02",
+      "due": "",
+      "group": "Kế toán",
+      "head": "Check giấy tờ",
+      "kind": "once",
+      "link": "",
+      "order": 5,
+      "owner": "Mai",
+      "priority": "Thường",
+      "src": "import",
+      "title": "Kiểm tra giấy tờ của toàn bộ những đơn đã giao"
+    },
+    "d31d9rljc6sjvscz2d9x": {
+      "brand": "th",
+      "date": "2026-10-30",
+      "due": "2026-10-30",
+      "group": "Marketing",
+      "head": "Check content",
+      "kind": "once",
+      "link": "https://docs.google.com/spreadsheets/d/1ioaeYk06CwhQ4-tydR2Jr-lE9SkBcOZUNFWAYmNUVUM/edit?gid=1617748132#gid=1617748132",
+      "order": 6,
+      "owner": "Mai",
+      "priority": "Cao",
+      "title": "Hoàn thiện content Gốm sứ xây dựng"
+    },
+    "f15baxlek220h1triuw9": {
+      "brand": "th",
+      "date": "2026-10-30",
+      "due": "",
+      "group": "Bán hàng",
+      "head": "Check tin nhắn khách",
+      "kind": "once",
+      "link": "",
+      "order": 3,
+      "owner": "Mai",
+      "priority": "Thường",
+      "src": "import",
+      "title": "Theo dõi khách Trung Lê đặt ngói 43 đỏ cờ"
+    },
+    "gnkkdnzi77wgowh9i48n": {
+      "brand": "th",
+      "date": "2026-10-30",
+      "due": "2026-06-30",
+      "group": "Bán hàng",
+      "head": "Check giao hàng",
+      "kind": "once",
+      "link": "",
+      "order": 1,
+      "owner": "Mai",
+      "priority": "Cao",
+      "src": "import",
+      "title": "Giao hàng chị Hằng"
+    },
+    "ipe46hfz6mdatz9i88bg": {
+      "brand": "mosaic",
+      "date": "2026-10-30",
+      "due": "2026-10-31",
+      "group": "Bán hàng",
+      "head": "Check giấy tờ",
+      "kind": "once",
+      "link": "",
+      "order": 7,
+      "owner": "Mai",
+      "priority": "Cao",
+      "src": "import",
+      "title": "Hoàn thiện hợp đồng tranh a Tùng Anh"
+    },
+    "jiu8ctfh7j1a2mrl380t": {
+      "brand": "th",
+      "date": "2026-10-30",
+      "due": "",
+      "group": "Bán hàng",
+      "head": "Check tin nhắn khách",
+      "kind": "once",
+      "link": "",
+      "order": 4,
+      "owner": "Mai",
+      "priority": "Thường",
+      "src": "import",
+      "title": "Theo dõi khách Sỹ Thắng đặt ngói + gạch"
+    },
+    "w0w0bdrtd4m44h4y29q1": {
+      "brand": "th",
+      "date": "2026-10-31",
+      "due": "2026-11-01",
+      "group": "Marketing",
+      "head": "Check content",
+      "kind": "once",
+      "link": "",
+      "order": 10,
+      "owner": "Mai",
+      "priority": "Thường",
+      "src": "import",
+      "title": "File content GSXD"
+    },
+    "wst24962ez9po9pw3pju": {
+      "brand": "th",
+      "date": "2026-10-30",
+      "due": "2026-07-05",
+      "group": "Kế toán",
+      "head": "Check công nợ",
+      "kind": "once",
+      "link": "",
+      "order": 2,
+      "owner": "Mai",
+      "priority": "Cao",
+      "src": "import",
+      "title": "Công nợ Lý Phương Hoa"
+    }
+  },
+  "days": {},
+  "docs": {},
+  "meta": {
+    "settings": {
+      "appName": "CHECKLIST THANH HAI CO.,LTD",
+      "brands": {
+        "mosaic": {
+          "name": "ANAM TILES",
+          "sub": "Gạch mosaic"
+        },
+        "th": {
+          "name": "TH CERAMICS",
+          "sub": "Gốm sứ xây dựng"
+        },
+        "vugia": {
+          "name": "GỐM VŨ GIA",
+          "sub": "Đồ thờ cúng tâm linh gốm sứ"
+        }
+      }
+    }
+  }
+}

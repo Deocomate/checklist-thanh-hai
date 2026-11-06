@@ -1,0 +1,25 @@
+{
+  "name": "checklist-thanh-hai",
+  "version": "1.0.0",
+  "description": "Web app checklist công việc hằng ngày cho 3 brand (TH CERAMICS, ANAM TILES, GỐM VŨ GIA)",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "seed": "node src/scripts/seed.js",
+    "test": "node tests/smoke.test.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "hbs": "^4.2.0",
+    "morgan": "^1.10.0"
+  },
+  "optionalDependencies": {
+    "better-sqlite3": "^11.8.1"
+  },
+  "engines": {
+    "node": ">=22.5.0"
+  }
+}

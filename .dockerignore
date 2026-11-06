@@ -1,0 +1,13 @@
+node_modules
+npm-debug.log
+.git
+.gitignore
+plans
+tests
+*.md
+!README.md
+data/*.db
+data/*.db-wal
+data/*.db-journal
+logs
+.env
